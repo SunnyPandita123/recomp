@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Button(props) {
-    const { message, onClick, isPrimary } = props;
+    const { message, onClick, isPrimary } = {...props};
     return (
         <button style={{
             padding: "10px 30px",

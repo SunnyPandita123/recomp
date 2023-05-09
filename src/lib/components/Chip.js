@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Chip(props) {
-    const { message } = props;
+    const { message } = {...props};
     return (
         <span style={{
             padding: "5px 20px",
