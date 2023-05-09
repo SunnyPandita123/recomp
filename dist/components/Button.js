@@ -21,7 +21,7 @@ function Button(props) {
   return /*#__PURE__*/_react.default.createElement("button", {
     style: {
       padding: "10px 30px",
-      backgroundColor: "{".concat(isPrimary, " ? \"yellow\" : \"grey\"}"),
+      backgroundColor: isPrimary ? "yellow" : "grey",
       border: "none",
       boxShadow: '1px 2px 9px rgb(50 47 48 / 23%)'
     },
