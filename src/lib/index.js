@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Chip from './components/Chip';
+import Button from './components/Button';
+
 function MyComp() {
   return (
     <div className="App">
@@ -7,17 +10,11 @@ function MyComp() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
 }
 
-export default MyComp;
+export {
+  Chip, Button, MyComp
+};
