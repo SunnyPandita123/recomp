@@ -2,6 +2,8 @@ import React from 'react';
 
 import Chip from './components/Chip';
 import Button from './components/Button';
+import SelectMenuRe from './components/SelectMenu_Re';
+import CardRe from './components/Card_Re';
 
 function MyComp() {
   return (
@@ -16,5 +18,5 @@ function MyComp() {
 }
 
 export {
-  Chip, Button, MyComp
+  Chip, Button, MyComp, SelectMenuRe, CardRe
 };
